@@ -14,7 +14,7 @@
 	"author": "losper",
 	"license": "MIT",
 	"bin": {
-		"@passoa/pm": "index.js"
+		"@passoa/pm": "./bin/pm.js"
 	},
 	"dependencies": {
 		"compressing": "^1.4.0",
