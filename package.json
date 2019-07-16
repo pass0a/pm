@@ -1,12 +1,17 @@
 {
 	"name": "@passoa/pm",
 	"version": "1.0.0",
-	"description": "",
+	"description": "install native modules@passoa",
 	"main": "index.js",
+	"repository": "git+https://github.com/pass0a/pm.git",
+	"bugs": {
+		"url": "https://github.com/pass0a/pm/issues"
+	},
+	"homepage": "https://github.com/pass0a/pm#readme",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "",
+	"author": "losper",
 	"license": "ISC",
 	"bin": {
 		"@passoa/pm": "index.js"
