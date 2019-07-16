@@ -1,0 +1,20 @@
+{
+	"name": "pm",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"bin": {
+		"@passoa/pm": "index.js"
+	},
+	"dependencies": {
+		"compressing": "^1.4.0",
+		"fs-extra": "^8.1.0",
+		"get-uri": "^2.0.3",
+		"minimist": "^1.2.0"
+	}
+}
