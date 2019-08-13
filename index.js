@@ -47,7 +47,7 @@ function install(remote, modname) {
 				.uncompress(`tmp/${modname}.tar.gz`, 'tmp')
 				.then(() => {
 					fs
-						.copy('tmp/output/node_modules', 'node_modules/@passoa', { overwrite: true })
+						.copy('tmp/node_modules', 'node_modules/@passoa', { overwrite: true })
 						.then(() => {
 							console.log('move ok!!!');
 						})
